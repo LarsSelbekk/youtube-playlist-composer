@@ -1,0 +1,9 @@
+textarea {
+    display: block;
+    width: 30em;
+    height: 50vh;
+}
+
+input[type=button] {
+    display: block;
+}
