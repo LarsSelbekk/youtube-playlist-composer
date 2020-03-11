@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Youtube-verktøy</title>
-    <script defer src="main.js"></script>
+    <title>Youtube Playlist Composer</title>
+    <script defer src="out/main.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Vilkårlig spilleliste av søketermer</h1>
+<h1>Arbitrary playlist of search terms</h1>
 <h2 id="title"></h2>
-<!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
 <div id="player"></div>
-
-<input type="button" id="play" title="▶ Play" value="▶ Play">
+<input id="prev_button" type="button" title="Previous" value="⏮ Previous" disabled>
+<input type="button" id="play_all_button" title="▶ Play all" value="▶ Play all" disabled>
 <input type="button" id="shuffle" title="🔀 Shuffle" value="🔀 Shuffle">
-<label for="songs">Lim inn søketermer her - én per linje</label>
-<textarea id="songs"></textarea>
-
-
+<input id="next_button" type="button" title="Next" value="Next ⏭" disabled>
+<label for="searchTerms">Paste search terms here - one per line</label>
+<textarea id="searchTerms"></textarea>
 </body>
 </html>
