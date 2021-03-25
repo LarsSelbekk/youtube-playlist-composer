@@ -4,8 +4,7 @@ let chosenIds; // TODO: Type
 // TODO: GC ununsed chosen IDs
 const title_el = document.getElementById("title"), searchTerms_el = document.getElementById("searchTerms");
 const play_all_button = document.getElementById("play_all_button"), shuffle_button = document.getElementById("shuffle"), next_button = document.getElementById("next_button"), prev_button = document.getElementById("prev_button");
-const api_key = "AIzaSyD5wAnOnpEwEMYdd-dTcQBwoFUmrlsE22o"; // TODO: Dev
-// const api_key: string = ; // TODO: Production
+const api_key = "AIzaSyA1P95Lfz8IZRq8jzvy1E_m-wEKaRJJ8xw";
 main();
 function main() {
     play_all_button.addEventListener("click", play_all);

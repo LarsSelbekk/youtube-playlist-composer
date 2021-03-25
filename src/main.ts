@@ -16,8 +16,7 @@ const enum ApiUrls {
     IFRAME = "https://www.youtube.com/iframe_api"
 }
 
-const api_key: string = "AIzaSyD5wAnOnpEwEMYdd-dTcQBwoFUmrlsE22o"; // TODO: Dev
-// const api_key: string = ; // TODO: Production
+const api_key: string = "AIzaSyA1P95Lfz8IZRq8jzvy1E_m-wEKaRJJ8xw";
 
 main();
 
